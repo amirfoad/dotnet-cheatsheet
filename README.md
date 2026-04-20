@@ -251,27 +251,5 @@ Databases / Message Brokers
 
 ---
 
-# 🔥 Best Practices
-
-- Always use `IHttpClientFactory` in .NET
-- Never hardcode service IPs in Kubernetes
-- Use readiness/liveness probes
-- Prefer ClusterIP for internal services
-- Use Ingress instead of NodePort in production
-- Use multi-stage Docker builds
-
----
-
-# 🧾 Senior Debug Checklist
-
-1. Pod running?
-2. Service selector correct?
-3. Endpoints exist?
-4. TargetPort correct?
-5. App listening on 0.0.0.0?
-6. Logs clean?
-
----
-
 # 🚀 End of Senior Cheatsheet
 
